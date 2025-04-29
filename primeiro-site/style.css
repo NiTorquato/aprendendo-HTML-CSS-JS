@@ -217,3 +217,68 @@ body::-webkit-scrollbar{
     width: 25vw;
     transform: translate(-50%, 0%);
 }
+
+/* Quarta Sessão - Contato */
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 10vw;
+    background-color: #f7e5c8;
+    min-height: 100vh;
+    gap: 2vh;
+}
+
+.four h2 {
+    font-size: 4vw;
+    color: #e04428;
+    margin-bottom: 2vh;
+}
+
+.four p {
+    font-size: 1.2vw;
+    text-align: center;
+    color: #1a1a1a;
+    max-width: 800px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    gap: 1.5vh;
+}
+
+.contact-form label {
+    font-size: 1.1vw;
+    color: #1b1b1b;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 1vw;
+    font-size: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+}
+
+.contact-form button {
+    width: fit-content;
+    align-self: flex-end;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 0.8vw 2vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e65100;
+}
